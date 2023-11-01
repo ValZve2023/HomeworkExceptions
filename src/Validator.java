@@ -6,9 +6,6 @@ import javax.security.auth.login.LoginException;
 public class Validator {
     private static final String LEGAL_CHARACTERS = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789_";
     private static final int MAX_LENGTH = 20;
-    private static String login;
-    private static String password;
-    private static String confirmPassword;
 
     public static void validate(
             String login,
